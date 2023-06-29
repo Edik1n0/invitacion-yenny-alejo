@@ -3,10 +3,19 @@ body {
   width: 100%;
   margin: 0px;
   padding: 0px;
-  background-image: url("/img/fondo-tarjeta.jpg");
-  background-repeat: no-repeat;
   background-attachment: fixed;
   text-align: center;
+}
+
+.bg__img {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  top: 0px;
+}
+.bg__img .bg__img--img {
+  width: 100%;
+  position: relative;
 }
 
 h1 {
@@ -41,17 +50,25 @@ p {
 .top {
   width: 100%;
   height: 14px;
-  background: rgba(75, 70, 38, 0.7607843137);
+  background: #ABF1FD;
+  z-index: 1;
+  position: relative;
 }
 
 .video {
   text-align: center;
   width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
 .video .video-in {
   width: 720px;
   height: 1280px;
   box-shadow: 5px 5px 10px;
+}
+.video .video-in .img__video-in {
+  width: 100%;
 }
 
 .separador__blanco {
@@ -262,7 +279,7 @@ footer .cont .body__footer--title {
 }
 footer .cont .confirm__ass {
   color: #FCFCFC;
-  background: rgba(75, 70, 38, 0.7607843137);
+  background: #ABF1FD;
   width: 120px;
   cursor: pointer;
   border-radius: 5px;
@@ -274,7 +291,7 @@ footer .cont .confirm__ass {
 }
 footer .cont .confirm__ass:hover {
   transition: all 0.6s;
-  color: rgba(75, 70, 38, 0.7607843137);
+  color: #ABF1FD;
   background: #FCFCFC;
 }
 footer .cont .body__contact--body {
@@ -284,7 +301,7 @@ footer .cont .body__contact--body {
 }
 footer .cont .body__contact--body .contact__wp {
   color: #FCFCFC;
-  background: rgba(75, 70, 38, 0.7607843137);
+  background: #ABF1FD;
   border-radius: 5px;
   margin: 6px;
   text-decoration: none;
@@ -295,7 +312,7 @@ footer .cont .body__contact--body .contact__wp {
 }
 footer .cont .body__contact--body .contact__wp:hover {
   transition: all 0.6s;
-  color: rgba(75, 70, 38, 0.7607843137);
+  color: #ABF1FD;
   background: #FCFCFC;
 }
 footer .cont .body__contact--hashtag {
@@ -309,7 +326,7 @@ footer .cont .body__contact--hashtag .contact__hs {
 }
 footer .cont .body__contact--hashtag .contact__hs:hover {
   transition: all 0.6s;
-  color: rgba(75, 70, 38, 0.7607843137);
+  color: #ABF1FD;
 }
 
 .footer__footer {

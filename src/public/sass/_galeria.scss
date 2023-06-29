@@ -1,5 +1,9 @@
 .galeria {
     background: $Roso;
+    position: relative;
+    height: 1080px;
+    padding-top: 40px;
+    margin-top: 120px;
 
     .galeria__header {
         font-family: 'Dancing Script', cursive;

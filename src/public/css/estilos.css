@@ -50,7 +50,7 @@ p {
 .top {
   width: 100%;
   height: 14px;
-  background: #ABF1FD;
+  background: #B19D7A;
   z-index: 1;
   position: relative;
 }
@@ -177,10 +177,11 @@ p {
 }
 
 .protocolo {
-  background: rgba(175, 125, 100, 0.7294117647);
+  background: rgba(251, 225, 179, 0.5921568627);
   text-align: center;
   margin-top: 40px;
   padding: 20px;
+  position: relative;
 }
 .protocolo .protocolo__header--title {
   font-size: 38px;
@@ -252,12 +253,13 @@ p {
   }
 }
 footer {
-  background: #717252;
+  background: linear-gradient(to bottom right, #f8efd7, #87dcfb);
   padding: 20px;
   text-align: center;
+  position: relative;
 }
 footer .cont {
-  background: #717252;
+  background: none;
 }
 footer .cont .header__footer {
   margin-bottom: 20px;
@@ -271,7 +273,7 @@ footer .cont .body__contact--title {
 footer .cont .header__footer--title,
 footer .cont .body__footer--title,
 footer .cont .body__contact--title {
-  background: #717252;
+  background: none;
   color: #FCFCFC;
 }
 footer .cont .body__footer--title {
@@ -279,7 +281,6 @@ footer .cont .body__footer--title {
 }
 footer .cont .confirm__ass {
   color: #FCFCFC;
-  background: #ABF1FD;
   width: 120px;
   cursor: pointer;
   border-radius: 5px;
@@ -291,7 +292,7 @@ footer .cont .confirm__ass {
 }
 footer .cont .confirm__ass:hover {
   transition: all 0.6s;
-  color: #ABF1FD;
+  color: #B19D7A;
   background: #FCFCFC;
 }
 footer .cont .body__contact--body {
@@ -301,7 +302,7 @@ footer .cont .body__contact--body {
 }
 footer .cont .body__contact--body .contact__wp {
   color: #FCFCFC;
-  background: #ABF1FD;
+  background: #B19D7A;
   border-radius: 5px;
   margin: 6px;
   text-decoration: none;
@@ -312,7 +313,7 @@ footer .cont .body__contact--body .contact__wp {
 }
 footer .cont .body__contact--body .contact__wp:hover {
   transition: all 0.6s;
-  color: #ABF1FD;
+  color: #B19D7A;
   background: #FCFCFC;
 }
 footer .cont .body__contact--hashtag {
@@ -326,25 +327,25 @@ footer .cont .body__contact--hashtag .contact__hs {
 }
 footer .cont .body__contact--hashtag .contact__hs:hover {
   transition: all 0.6s;
-  color: #ABF1FD;
+  color: #B19D7A;
 }
-
-.footer__footer {
+footer .footer__footer {
   padding: 12px;
   color: #FCFCFC;
   font-family: "Poppins", sans-serif;
   text-align: center;
+  position: relative;
+  margin-top: 40px;
+  height: 40px;
 }
-
-.footer__footer,
-.footer__footer--title,
-.footer__footer--link {
-  background: #717252;
+footer .footer__footer,
+footer .footer__footer--title,
+footer .footer__footer--link {
+  background: none;
   color: #FCFCFC;
   text-decoration: none;
 }
-
-.footer__footer--link:hover {
+footer .footer__footer--link:hover {
   transition: all 0.6s;
   color: #717252;
 }
@@ -476,7 +477,11 @@ li span {
   }
 }
 .galeria {
-  background: rgba(175, 125, 100, 0.7294117647);
+  background: rgba(251, 225, 179, 0.5921568627);
+  position: relative;
+  height: 1080px;
+  padding-top: 40px;
+  margin-top: 120px;
 }
 .galeria .galeria__header {
   font-family: "Dancing Script", cursive;

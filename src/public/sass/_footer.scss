@@ -1,10 +1,12 @@
 footer {
-    background: $Cf;
+    //background: $Cf;
+    background: linear-gradient(to bottom right, #f8efd7, #87dcfb);
     padding: 20px;
     text-align: center;
+    position: relative;
 
     .cont {
-        background: $Cf;
+        background: none;
 
         .header__footer {
             margin-bottom: 20px;
@@ -20,7 +22,7 @@ footer {
         .header__footer--title,
         .body__footer--title,
         .body__contact--title {
-            background: $Cf;
+            background: none;
             color: $Bl;
         }
 
@@ -30,7 +32,6 @@ footer {
 
         .confirm__ass {
             color: $Bl;
-            background: $Cfo;
             width: 120px;
             cursor: pointer;
             border-radius: 5px;
@@ -87,27 +88,30 @@ footer {
             }
         }
     }
-}
 
-.footer__footer {
-    padding: 12px;
-    color: $Bl;
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-}
-
-.footer__footer,
-.footer__footer--title,
-.footer__footer--link {
-    background: $Cf;
-    color: $Bl;
-    text-decoration: none;
-}
-
-.footer__footer--link {
-    &:hover {
-        transition: all .6s;
-        color: $Cf;
+    .footer__footer {
+        padding: 12px;
+        color: $Bl;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        position: relative;
+        margin-top: 40px;
+        height: 40px;
+    }
+    
+    .footer__footer,
+    .footer__footer--title,
+    .footer__footer--link {
+        background: none;
+        color: $Bl;
+        text-decoration: none;
+    }
+    
+    .footer__footer--link {
+        &:hover {
+            transition: all .6s;
+            color: $Cf;
+        }
     }
 }
 

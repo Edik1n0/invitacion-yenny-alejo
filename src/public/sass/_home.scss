@@ -1,0 +1,271 @@
+body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-image: url('/img/fondo-tarjeta.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+    background: $Bl;
+}
+
+h2 {
+    font-size: 44px;
+    background: $Bl;
+}
+
+h3 {
+    font-size: 40px;
+    background: $Bl;
+}
+
+h4 {
+    font-size: 36px;
+    background: $Bl;
+}
+
+h5 {
+    font-size: 32px;
+    background: $Bl;
+}
+
+p {
+    background: $Bl;
+}
+
+.top {
+    width: 100%;
+    height: 14px;
+    background: $Cfo;
+}
+
+.video {
+    text-align: center;
+    width: 100%;
+
+    .video-in {
+        width: 720px;
+        height: 1280px;
+        box-shadow: 5px 5px 10px;
+    }
+}
+
+.separador__blanco {
+    border: 2px solid $Bl;
+    height: 4px;
+    width: 100%;
+    border-style: dashed;
+}
+
+.card__header {
+    font-family: 'Dancing Script', cursive;
+
+    .download__vid {
+        color: $Bl;
+        background: $Cf;
+        width: 120px;
+        cursor: pointer;
+        border-radius: 5px;
+        margin: 6px;
+        text-decoration: none;
+        padding: 10px;
+        margin: 20px;
+        box-shadow: 5px 5px 10px;
+
+        &:hover {
+            transition: all .6s;
+            color: $Cf;
+            background: $Bl;
+        }
+    }
+}
+
+.body__img--copas,
+.iglesia__img--png {
+    width: 100px;
+}
+
+.card__body {
+    font-family: 'Poppins', sans-serif;
+    color: $Cf;
+}
+
+.card__footer {
+    display: flex;
+    justify-content: center;
+
+    .card__footer--info {
+        border: 2px dashed #C3938C;
+        border-radius: 5px;
+        font-family: "Poppins", sans-serif;
+        padding: 10px 6px 6px 6px;
+        height: 46px;
+        margin: 20px 20px 20px 20px;
+    }
+
+    .contact__wp {
+        color: $Bl;
+        background: $Cf;
+        border-radius: 5px;
+        margin: 6px;
+        text-decoration: none;
+        padding: 10px;
+        margin: 20px;
+        box-shadow: 5px 5px 10px;
+        font-family: 'Poppins', sans-serif;
+
+        &:hover {
+            transition: all .6s;
+            color: $Cf;
+            background: $Bl;
+        }
+    }
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 16px;
+
+    .card {
+        width: 60%;
+        padding: 4%;
+        display: block;
+        text-align: center;
+        background: $Bl;
+        opacity: 80%;
+        box-shadow: 5px 5px 10px;
+        border-radius: 5px;
+
+        .contador__fecha {
+            margin-top: 30px;
+        }
+
+        .body--text {
+            font-size: 24px;
+        }
+
+        .body--text,
+        .card-footer {
+            margin-top: 30px;
+
+            .card__footer--info {
+                margin: 20px 0px 0px 0px;
+            }
+        }
+    }
+}
+
+.dc {
+    justify-content: space-around;
+
+    .dress__code--content {
+        font-size: 28px;
+    }
+}
+
+.protocolo {
+    background: $Roso;
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+
+    .protocolo__header--title {
+        font-size: 38px;
+        background: none;
+        color: $Bl;
+        font-family: 'Dancing Script', cursive;
+    }
+
+    .protocolo__body {
+        padding: 20px;
+
+        .protocolo__eff {
+            .protocolo__listado {
+                padding: 0px;
+                .protocolo__item {
+                    font-family: 'Poppins', sans-serif;
+                    text-transform: capitalize;
+                    .eff__link--txt {
+                        color: $Bl;
+                        background: none;
+                    }
+                }
+            }
+        }
+
+        .protocolo__body--img {
+            width: 940px;
+        }
+    }
+}
+
+.container {
+    padding: 0px;
+}
+
+.adv {
+    .body--text {
+        .adv__list {
+            display: grid;
+            .adv__item {
+                text-transform: capitalize;
+                font-size: 28px;
+                padding: 4px;
+            }
+        }
+    }
+}
+
+@media (min-width: 300px) and (max-width: 1080px) {
+    .video {
+        .video-in {
+            width: 90%;
+            height: 700px;
+            box-shadow: 5px 5px 10px;
+        }
+    }
+
+    .container {
+        .card {
+            width: 90%;
+        }
+    }
+
+    .protocolo {
+        .protocolo__body {
+            padding: 0px;
+
+            .protocolo__body--img {
+                margin-top: 40px;
+                width: 90%;
+            }
+
+            .protocolo__eff {
+                .protocolo__listado {
+                    margin-top: 60px;
+                    padding: 0px;
+
+                    .protocolo__item {
+                        font-family: 'Poppins', sans-serif;
+                        text-transform: capitalize;
+                        padding: 0px;
+                    }
+                }
+            }
+        }
+    }
+
+    .dc {
+        justify-content: space-around;
+    
+        .dress__code--content {
+            font-size: 16px;
+        }
+    }
+}

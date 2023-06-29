@@ -10,8 +10,8 @@
 module.exports = {
     database: {
         host: 'y5svr1t2r5xudqeq.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
-        user: 'orcq3w3h7yoii8nb',
-        password: 'q1f9653ibntf2vww',
-        database: 'bgn8k0dmly9n6i3x'
+        user: 'yreygsfu3np69vzd',
+        password: 'ixnu4sua9c2s6htm',
+        database: 'qhhyjx6iue8ubcbd'
     }
 };

@@ -17,6 +17,19 @@ body {
   width: 100%;
   position: relative;
 }
+.bg__img .bg__img--mov {
+  height: 920px;
+  position: relative;
+  opacity: 0%;
+}
+@media (min-width: 300px) and (max-width: 1080px) {
+  .bg__img .bg__img--img {
+    display: none;
+  }
+  .bg__img .bg__img--mov {
+    opacity: 100%;
+  }
+}
 
 h1 {
   font-size: 48px;

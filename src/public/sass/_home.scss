@@ -13,9 +13,26 @@ body {
     display: flex;
     justify-content: center;
     top: 0px;
+
     .bg__img--img {
         width: 100%;
         position: relative;
+    }
+
+    .bg__img--mov {
+        height: 920px;
+        position: relative;
+        opacity: 0%;
+    }
+
+    @media (min-width: 300px) and (max-width: 1080px) {
+        .bg__img--img {
+            display: none;
+        }
+
+        .bg__img--mov {
+            opacity: 100%;
+        }
     }
 }
 
@@ -209,9 +226,11 @@ p {
         .protocolo__eff {
             .protocolo__listado {
                 padding: 0px;
+
                 .protocolo__item {
                     font-family: 'Poppins', sans-serif;
                     text-transform: capitalize;
+
                     .eff__link--txt {
                         color: $Bl;
                         background: none;
@@ -234,6 +253,7 @@ p {
     .body--text {
         .adv__list {
             display: grid;
+
             .adv__item {
                 text-transform: capitalize;
                 font-size: 28px;
@@ -284,7 +304,7 @@ p {
 
     .dc {
         justify-content: space-around;
-    
+
         .dress__code--content {
             font-size: 16px;
         }

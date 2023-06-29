@@ -23,7 +23,7 @@ footer {
         .body__footer--title,
         .body__contact--title {
             background: none;
-            color: $Bl;
+            color: $Cfo;
         }
 
         .body__footer--title {
@@ -77,7 +77,7 @@ footer {
             font-family: 'Poppins', sans-serif;
 
             .contact__hs {
-                color: $Bl;
+                color: $Cfo;
                 text-decoration: none;
                 font-size: 38px;
 
@@ -91,7 +91,7 @@ footer {
 
     .footer__footer {
         padding: 12px;
-        color: $Bl;
+        color: $Cfo;
         font-family: 'Poppins', sans-serif;
         text-align: center;
         position: relative;
@@ -103,7 +103,7 @@ footer {
     .footer__footer--title,
     .footer__footer--link {
         background: none;
-        color: $Bl;
+        color: $Cfo;
         text-decoration: none;
     }
     
@@ -117,7 +117,7 @@ footer {
 
 @media (min-width: 300px) and (max-width: 1080px) {
     footer .cont .body__contact--hashtag .contact__hs {
-        color: #FCFCFC;
+        color: $Cfo;
         text-decoration: none;
         font-size: 20px;
     }

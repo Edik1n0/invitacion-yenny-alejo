@@ -10,8 +10,6 @@ body {
 
 .bg__img {
     position: fixed;
-    display: flex;
-    justify-content: center;
     top: 0px;
 
     .bg__img--img {
@@ -99,11 +97,11 @@ p {
 }
 
 .card__header {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Bad Script', cursive;
 
     .download__vid {
         color: $Bl;
-        background: $Cf;
+        background: $Cfo;
         width: 120px;
         cursor: pointer;
         border-radius: 5px;
@@ -123,7 +121,8 @@ p {
 
 .body__img--copas,
 .iglesia__img--png {
-    width: 100px;
+    width: 120px;
+    margin-bottom: 20px;
 }
 
 .card__body {
@@ -199,10 +198,12 @@ p {
 }
 
 .dc {
+    display: flex;
     justify-content: space-around;
 
-    .dress__code--content {
+    .dress__code {
         font-size: 28px;
+        width: 40%;
     }
 }
 
@@ -216,8 +217,8 @@ p {
     .protocolo__header--title {
         font-size: 38px;
         background: none;
-        color: $Bl;
-        font-family: 'Dancing Script', cursive;
+        color: $Cfo;
+        font-family: 'Bad Script', cursive;
     }
 
     .protocolo__body {
@@ -232,7 +233,7 @@ p {
                     text-transform: capitalize;
 
                     .eff__link--txt {
-                        color: $Bl;
+                        color: $Cfo;
                         background: none;
                     }
                 }
@@ -247,6 +248,14 @@ p {
 
 .container {
     padding: 0px;
+}
+
+.dvid {
+    height: 280px;
+
+    .body--text {
+        margin-bottom: 40px;
+    }
 }
 
 .adv {

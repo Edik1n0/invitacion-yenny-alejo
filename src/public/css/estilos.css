@@ -82,6 +82,20 @@ p {
   width: 100%;
 }
 
+.audio {
+  display: block;
+  position: relative;
+  top: 40px;
+  font-family: "Bad Script", cursive;
+  color: #B19D7A;
+}
+.audio .audio-cont .audio__title {
+  background: none;
+}
+.audio audio {
+  background: none;
+}
+
 .separador__blanco {
   border: 2px solid #FCFCFC;
   height: 4px;

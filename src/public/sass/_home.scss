@@ -89,6 +89,24 @@ p {
     }
 }
 
+.audio {
+    display: block;
+    position: relative;
+    top: 40px;
+    font-family: 'Bad Script', cursive;
+    color: $Cfo;
+
+    .audio-cont {
+        .audio__title {
+            background: none;
+        }
+    }
+
+    audio {
+        background: none;
+    }
+}
+
 .separador__blanco {
     border: 2px solid $Bl;
     height: 4px;
@@ -227,6 +245,7 @@ p {
         .protocolo__eff {
             display: flex;
             justify-content: center;
+
             .protocolo__listado {
                 padding: 0px;
                 width: 70%;

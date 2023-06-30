@@ -6,14 +6,25 @@
 {{> message}}
 <div class="video">
     {{!-- <iframe src="/img/img-video.jpg" frameborder="0" class="video-in"></iframe> --}}
-    <div class="video-in">
-        <img src="/img/img-video.jpg" alt="" class="img__video-in">
-    </div>
-    {{!-- <iframe src="https://www.youtube.com/embed/ECwwJha8ohY" class="video-in" title="YouTube video player"
+    <video class="video-in" controls preload autoplay poster="/img/img-video.jpg">
+        <source src="https://files.catbox.moe/jzu5yu.mp4" type="video/mp4">
+    </video>
+    {{!-- <iframe src="https://files.catbox.moe/jzu5yu.mp4" poster="/img/img-video.jpg" class="video-in" title="YouTube video player"
         frameborder="0"></iframe> --}}
 </div>
 
-<div class="container">
+<div class="audio container text-center">
+    <div class="audio-cont">
+        <h3 class="audio__title">Reproduce para una mejor experiencia:</h3>
+        <audio id="au" width="480" controls preload>
+            <source src="/audio/carlos-vives-cumbiana.mp3" type="audio/mp3">
+            <source src="/audio/carlos-vives-cumbiana.ogg" type="audio/ogg">
+            Tu navegador no soporta audio HTML5.
+        </audio>
+    </div>
+</div>
+
+<div class="container" style="margin-top: 80px;">
     <div class="card__header card">
         <p class="body--text">
             Queremos darle un nuevo significado a nuestra historia de amor. Por eso hoy con el corazón lleno de ilusión
@@ -112,7 +123,7 @@
         <p class="body--text">
             Descarga el video de recuerdo en el siguiente botón
         </p>
-        <a href="https://www.y2mate.com/es/youtube/ECwwJha8ohY" target="_blank" class="download__vid">Descargar Video
+        <a href="/video/video-invitacion.mp4" download target="_blank" class="download__vid">Descargar Video
             Recordatorio</a>
     </div>
 </div>
@@ -141,11 +152,5 @@
         </div>
     </div>
 </div>
-
-<audio id="au" controls preload autoplay>
-    <source src="/audio/carlos-vives-cumbiana.mp3" type="audio/mp3">
-    <source src="/audio/carlos-vives-cumbiana.ogg" type="audio/ogg">
-    Tu navegador no soporta audio HTML5.
-</audio>
 
 {{> footer }}

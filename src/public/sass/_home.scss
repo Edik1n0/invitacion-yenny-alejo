@@ -225,8 +225,11 @@ p {
         padding: 20px;
 
         .protocolo__eff {
+            display: flex;
+            justify-content: center;
             .protocolo__listado {
                 padding: 0px;
+                width: 70%;
 
                 .protocolo__item {
                     font-family: 'Poppins', sans-serif;

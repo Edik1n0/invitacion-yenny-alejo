@@ -206,8 +206,13 @@ p {
 .protocolo .protocolo__body {
   padding: 20px;
 }
+.protocolo .protocolo__body .protocolo__eff {
+  display: flex;
+  justify-content: center;
+}
 .protocolo .protocolo__body .protocolo__eff .protocolo__listado {
   padding: 0px;
+  width: 70%;
 }
 .protocolo .protocolo__body .protocolo__eff .protocolo__listado .protocolo__item {
   font-family: "Poppins", sans-serif;
